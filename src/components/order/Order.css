@@ -1,0 +1,4 @@
+.order-complete
+{
+    @apply px-8 py-4 bg-white absolute z-30 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[30%] h-auto flex flex-col rounded-xl lg:w-[70%] sm:w-[70%] sm:px-2 sm:py-3
+}

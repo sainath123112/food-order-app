@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar ul li a
+{
+    @apply p-2 hover:cursor-pointer hover:text-[#67568c] font-bold tracking-widest transition-all
+}

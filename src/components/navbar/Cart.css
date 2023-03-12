@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cart-heartbeat
+{
+    animation-name: cart-heartbeat;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;    
+    transform: scale(1);
+}
+
+@keyframes cart-heartbeat
+{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
